@@ -1,2 +1,2 @@
 # hello-world
-Learning task
+Repo for learning tasks
