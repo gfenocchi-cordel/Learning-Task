@@ -15,20 +15,19 @@ namespace Library.Controllers
 
         // GET: api/books
         [HttpGet]
-        public IActionResult Get([FromQuery] string search, [FromQuery] string sort, [FromQuery] int? pageNumber, [FromQuery] int? pageSize)
+        public IActionResult Get([FromQuery] string? search, [FromQuery] string sort, [FromQuery] int? pageNumber, [FromQuery] int? pageSize)
         {
             var query = Books.AsQueryable();
 
             // Search filtering
-            if (!string.IsNullOrEmpty(search))
+            if (!string.IsNullOrWhiteSpace(search)) // This will also check for strings that are just whitespace
             {
                 query = query.Where(b => 
                     (b.Title != null && b.Title.Contains(search)) ||
                     (b.Author != null && b.Author.Contains(search)) ||
                     (b.Publisher != null && b.Publisher.Contains(search)));
             }
-
-
+            
             // Sorting
             switch (sort)
             {
