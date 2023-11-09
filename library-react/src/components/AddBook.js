@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './styles.css';
 
 function AddBook() {
   const [formData, setFormData] = useState({
@@ -6,7 +7,8 @@ function AddBook() {
     author: '',
     publisher: '',
     publishedDate: '',
-    id: ''
+    blurb: '',
+    numberOfPages: ''
   });
 
   const handleChange = (e) => {
@@ -39,56 +41,83 @@ function AddBook() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="addBookForm">
       <h2>Add a New Book</h2>
-      <div>
-        <label>Title:</label>
+      <div className="formGroup">
+        <label className="label">Title:</label>
         <input
           type="text"
           name="title"
           value={formData.title}
           onChange={handleChange}
           required
+          className="input"
         />
       </div>
-      <div>
-        <label>Author:</label>
+      <div className="formGroup">
+        <label className="label">Author:</label>
         <input
           type="text"
           name="author"
           value={formData.author}
           onChange={handleChange}
           required
+          className="input"
         />
       </div>
-      <div>
-        <label>Publisher:</label>
+      <div className="formGroup">
+        <label className="label">Publisher:</label>
         <input
           type="text"
           name="publisher"
           value={formData.publisher}
           onChange={handleChange}
+          className="input"
         />
       </div>
-      <div>
-        <label>Published Date:</label>
+      <div className="formGroup">
+        <label className="label">Published Date:</label>
         <input
           type="date"
           name="publishedDate"
           value={formData.publishedDate}
           onChange={handleChange}
+          className="input"
         />
       </div>
-      <div>
-        <label>ID:</label>
+      <div className="formGroup">
+        <label className="label">ID:</label>
         <input
           type="number"
           name="id"
           value={formData.id}
           onChange={handleChange}
+          className="input"
         />
       </div>
-      <button type="submit">Add Book</button>
+      <div className="formGroup">
+        <label htmlFor="blurb" className="label">Blurb:</label>
+        <textarea
+          id="blurb"
+          name="blurb"
+          value={formData.blurb}
+          onChange={handleChange}
+          className="input"
+          rows="4"
+        />
+      </div>
+      <div className="formGroup">
+        <label htmlFor="numberOfPages" className="label">Number of Pages:</label>
+        <input
+          type="number"
+          id="numberOfPages"
+          name="numberOfPages"
+          value={formData.numberOfPages}
+          onChange={handleChange}
+          className="input"
+        />
+      </div>
+      <button type="submit" className="submitButton">Add Book</button>
     </form>
   );
 }

@@ -1,0 +1,310 @@
+/* Styles for the Home component container */
+.home-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Styles for the main heading */
+  .home-heading {
+    color: #333;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Styles for the paragraph */
+  .home-paragraph {
+    color: #555;
+    font-size: 1.1em;
+  }
+  
+  /* Styles for the navigation bar */
+nav {
+    background-color: #003082;
+    overflow: hidden;
+  }
+  
+  /* Styles for the list within the nav */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Styles for each list item */
+  nav li {
+    margin: 0 10px;
+  }
+  
+  /* Styles for each link */
+  nav a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  /* Change background color on hover */
+  nav a:hover {
+    background-color: #26ccff;
+  }
+  
+  .textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical; /* Allow only vertical resizing */
+  }
+  
+  .addBookForm {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .addBookForm h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* So that width includes padding */
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #004d40; /* A deep teal color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color: #00332a; /* A darker shade for hover effect */
+  }
+  
+  /* Styles for the BookList container */
+.bookListContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styles for the search input and buttons */
+  .searchInput,
+  .bookListButton,
+  .sortSelect,
+  .pageSizeSelect {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styling for list of books */
+  .bookList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .bookListItem {
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  .bookTitle {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .bookAuthor,
+  .bookId {
+    color: #666;
+  }
+  
+  /* Buttons inside book list items */
+  .editButton,
+  .deleteButton {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .editButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .deleteButton {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  
+  /* Disable button styling */
+  .bookListButton:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+  }
+  
+  /* Styles for the BookList container */
+.bookListContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styles for the search input and buttons */
+  .searchInput,
+  .bookListButton,
+  .sortSelect,
+  .pageSizeSelect {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styling for list of books */
+  .bookList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .bookListItem {
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  .bookTitle {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .bookAuthor,
+  .bookId {
+    color: #666;
+  }
+  
+  /* Buttons inside book list items */
+  .editButton,
+  .deleteButton {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .editButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .deleteButton {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  
+  /* Disable button styling */
+  .bookListButton:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+  }
+  
+  /* Styles for the EditBook form */
+.editBookForm {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .editBookForm h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .editBookFormField {
+    margin-bottom: 10px;
+  }
+  
+  .editBookFormLabel {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .editBookFormInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .editBookFormButton {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #5c6bc0; /* Indigo shade */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .editBookFormButton:hover {
+    background-color: #3949ab; /* Darker indigo shade */
+  }
+  
+  /* When loading or error messages are displayed */
+  .loadingMessage,
+  .errorMessage {
+    text-align: center;
+    color: #d32f2f; /* Red color for error messages */
+  }
+  

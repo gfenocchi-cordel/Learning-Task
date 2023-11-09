@@ -1,5 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
+import './styles.css';
 
 function BookList() {
   const [books, setBooks] = useState([]);
@@ -13,7 +14,7 @@ function BookList() {
 
   const fetchBooks = useCallback(async () => {
     setLoading(true);
-    // Always include the search parameter, even if it's an empty string
+
     const queryParams = new URLSearchParams({
       search: searchTerm, // This includes search with an empty string if searchTerm is ''
       sort: sort,
@@ -79,42 +80,42 @@ function BookList() {
   };
 
   return (
-    <div>
+    <div className="bookListContainer">
+      <h2>Book Registry</h2>
       <input
         type="text"
         value={searchTerm}
         onChange={handleSearchChange}
         placeholder="Search..."
+        className="searchInput"
       />
-      <button onClick={handleSearch}>Search</button>
-      <select value={sort} onChange={handleSortChange}>
+      <button onClick={handleSearch} className="bookListButton">Search</button>
+      <select value={sort} onChange={handleSortChange} className="sortSelect">
         <option value="title">Title</option>
         <option value="title_desc">Title Descending</option>
-        {/* Add other sorting options here */}
       </select>
-      <select value={pageSize} onChange={handlePageSizeChange}>
+      <select value={pageSize} onChange={handlePageSizeChange} className="pageSizeSelect">
         <option value="5">5 per page</option>
         <option value="10">10 per page</option>
-        {/* Add other page size options here */}
       </select>
-      <button onClick={goToPrevPage} disabled={pageNumber <= 1}>
+      <button onClick={goToPrevPage} disabled={pageNumber <= 1} className="bookListButton">
         Previous
       </button>
-      <button onClick={goToNextPage}>
+      <button onClick={goToNextPage} className="bookListButton">
         Next
       </button>
 
       {loading ? (
         <p>Loading books...</p>
       ) : (
-        <ul>
+        <ul className="bookList">
           {books.map((book) => (
-            <li key={book.id}>
-              <h3>{book.title}</h3>
-              <p>Author: {book.author}</p>
-              <p>ID: {book.id}</p>
-              <button onClick={() => editBook(book.id)}>Edit</button>
-              <button onClick={() => deleteBook(book.id)}>Delete</button>
+            <li key={book.id} className="bookListItem">
+              <h3 className="bookTitle">{book.title}</h3>
+              <p className="bookAuthor">Author: {book.author}</p>
+              <p className="bookId">ID: {book.id}</p>
+              <button onClick={() => editBook(book.id)} className="editButton">Edit</button>
+              <button onClick={() => deleteBook(book.id)} className="deleteButton">Delete</button>
             </li>
           ))}
         </ul>

@@ -1,5 +1,6 @@
 import React, { useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
+import './styles.css';
 
 function EditBook() {
     const { id } = useParams(); // Access the 'id' parameter from the URL
@@ -7,7 +8,9 @@ function EditBook() {
       title: '',
       author: '',
       publisher: '',
-      publishedDate: ''
+      publishedDate: '',
+      blurb: '',
+      numberOfPages: ''
     });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -76,10 +79,10 @@ function EditBook() {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="editBookForm">
       <h2>Edit Book</h2>
-      <div>
-        <label htmlFor="title">Title:</label>
+      <div className="editBookFormField">
+        <label htmlFor="title" className="editBookFormLabel">Title:</label>
         <input
           type="text"
           id="title"
@@ -87,10 +90,11 @@ function EditBook() {
           value={book.title}
           onChange={handleChange}
           required
+          className="editBookFormInput"
         />
       </div>
-      <div>
-        <label htmlFor="author">Author:</label>
+      <div className="editBookFormField">
+        <label htmlFor="author" className="editBookFormLabel">Author:</label>
         <input
           type="text"
           id="author"
@@ -98,29 +102,56 @@ function EditBook() {
           value={book.author}
           onChange={handleChange}
           required
+          className="editBookFormInput"
         />
       </div>
-      <div>
-        <label htmlFor="publisher">Publisher:</label>
+      <div className="editBookFormField">
+        <label htmlFor="publisher" className="editBookFormLabel">Publisher:</label>
         <input
           type="text"
           id="publisher"
           name="publisher"
           value={book.publisher}
           onChange={handleChange}
+          className="editBookFormInput"
         />
       </div>
-      <div>
-        <label htmlFor="publishedDate">Published Date:</label>
+      <div className="editBookFormField">
+        <label htmlFor="publishedDate" className="editBookFormLabel">Published Date:</label>
         <input
           type="date"
           id="publishedDate"
           name="publishedDate"
           value={book.publishedDate}
           onChange={handleChange}
+          className="editBookFormInput"
         />
       </div>
-      <button type="submit">Update Book</button>
+      <div className="formGroup">
+        <label htmlFor="blurb">Blurb:</label>
+        <textarea
+          id="blurb"
+          name="blurb"
+          value={book.blurb}
+          onChange={handleChange}
+          rows="4"
+          required
+          className="input"
+        />
+      </div>
+      <div className="formGroup">
+        <label htmlFor="numberOfPages">Number of Pages:</label>
+        <input
+          type="number"
+          id="numberOfPages"
+          name="numberOfPages"
+          value={book.numberOfPages}
+          onChange={handleChange}
+          required
+          className="input"
+        />
+      </div>
+      <button type="submit" className="editBookFormButton">Update Book</button>
     </form>
   );
 }
