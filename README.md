@@ -12,6 +12,10 @@ The Library Management System is a full-stack application designed to facilitate
 - **Pagination**: Browse books in a paginated view.
 - **Edit Book Details**: Each book's details can be edited, including the title, author, publisher, published date, a blurb about the book, and the number of pages.
 
+<img src="bookAdd.png" alt="Library Add" width="440">   <img src="bookList.png" alt="Library List" width="430">
+
+
+
 ## Main Purpose
 
 The main purpose of this system is to provide a user-friendly interface for librarians or administrators to maintain their book inventory, ensuring the library's catalog is up-to-date and easily accessible.
