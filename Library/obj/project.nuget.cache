@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uOEBSixrZYlCYQXqI1RkD2hxmQK8ed0BBVnAlb7itCpcxlGLVPol8hgZ8LWqIRiCSZbCXXZWHLbtO6Hx0xo3+A==",
+  "dgSpecHash": "cRyrRLJfe+i3UO/Uex3vO9K3vXclshnzgZyjaRDImVIBJH5Pdr0up1T+Cq2iQg6ivWBOuig6InKzaEtGg9I3HA==",
   "success": true,
-  "projectFilePath": "/Users/luca/Documents/Cordel/Learning Task/Library/Library.csproj",
+  "projectFilePath": "/Users/luca/Developer/GitHub/Learning-Task/Library/Library.csproj",
   "expectedPackageFiles": [
     "/Users/luca/.nuget/packages/microsoft.aspnetcore.openapi/7.0.13/microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
     "/Users/luca/.nuget/packages/microsoft.entityframeworkcore/7.0.13/microsoft.entityframeworkcore.7.0.13.nupkg.sha512",

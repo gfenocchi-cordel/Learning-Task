@@ -1011,11 +1011,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/luca/Documents/Cordel/Learning Task/Library/Library.csproj",
+      "projectUniqueName": "/Users/luca/Developer/GitHub/Learning-Task/Library/Library.csproj",
       "projectName": "Library",
-      "projectPath": "/Users/luca/Documents/Cordel/Learning Task/Library/Library.csproj",
+      "projectPath": "/Users/luca/Developer/GitHub/Learning-Task/Library/Library.csproj",
       "packagesPath": "/Users/luca/.nuget/packages/",
-      "outputPath": "/Users/luca/Documents/Cordel/Learning Task/Library/obj/",
+      "outputPath": "/Users/luca/Developer/GitHub/Learning-Task/Library/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/luca/.nuget/NuGet/NuGet.Config"

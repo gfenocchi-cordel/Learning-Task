@@ -1,36 +1,36 @@
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/Library.csproj.AssemblyReference.cache
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/Library.GeneratedMSBuildEditorConfig.editorconfig
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/Library.AssemblyInfoInputs.cache
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/Library.AssemblyInfo.cs
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/Library.csproj.CoreCompileInputs.cache
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/Library.MvcApplicationPartsAssemblyInfo.cs
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/Library.MvcApplicationPartsAssemblyInfo.cache
-/Users/luca/Documents/Cordel/Learning Task/Library/bin/Debug/net7.0/appsettings.Development.json
-/Users/luca/Documents/Cordel/Learning Task/Library/bin/Debug/net7.0/appsettings.json
-/Users/luca/Documents/Cordel/Learning Task/Library/bin/Debug/net7.0/Library
-/Users/luca/Documents/Cordel/Learning Task/Library/bin/Debug/net7.0/Library.deps.json
-/Users/luca/Documents/Cordel/Learning Task/Library/bin/Debug/net7.0/Library.runtimeconfig.json
-/Users/luca/Documents/Cordel/Learning Task/Library/bin/Debug/net7.0/Library.dll
-/Users/luca/Documents/Cordel/Learning Task/Library/bin/Debug/net7.0/Library.pdb
-/Users/luca/Documents/Cordel/Learning Task/Library/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
-/Users/luca/Documents/Cordel/Learning Task/Library/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
-/Users/luca/Documents/Cordel/Learning Task/Library/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Users/luca/Documents/Cordel/Learning Task/Library/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.InMemory.dll
-/Users/luca/Documents/Cordel/Learning Task/Library/bin/Debug/net7.0/Microsoft.OpenApi.dll
-/Users/luca/Documents/Cordel/Learning Task/Library/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
-/Users/luca/Documents/Cordel/Learning Task/Library/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-/Users/luca/Documents/Cordel/Learning Task/Library/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/staticwebassets/msbuild.Library.Microsoft.AspNetCore.StaticWebAssets.props
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/staticwebassets/msbuild.build.Library.props
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Library.props
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Library.props
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/staticwebassets.pack.json
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/staticwebassets.build.json
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/staticwebassets.development.json
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/scopedcss/bundle/Library.styles.css
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/Library.csproj.CopyComplete
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/Library.dll
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/refint/Library.dll
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/Library.pdb
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/Library.genruntimeconfig.cache
-/Users/luca/Documents/Cordel/Learning Task/Library/obj/Debug/net7.0/ref/Library.dll
+/Users/luca/Developer/GitHub/Learning-Task/Library/bin/Debug/net7.0/appsettings.Development.json
+/Users/luca/Developer/GitHub/Learning-Task/Library/bin/Debug/net7.0/appsettings.json
+/Users/luca/Developer/GitHub/Learning-Task/Library/bin/Debug/net7.0/Library
+/Users/luca/Developer/GitHub/Learning-Task/Library/bin/Debug/net7.0/Library.deps.json
+/Users/luca/Developer/GitHub/Learning-Task/Library/bin/Debug/net7.0/Library.runtimeconfig.json
+/Users/luca/Developer/GitHub/Learning-Task/Library/bin/Debug/net7.0/Library.dll
+/Users/luca/Developer/GitHub/Learning-Task/Library/bin/Debug/net7.0/Library.pdb
+/Users/luca/Developer/GitHub/Learning-Task/Library/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/luca/Developer/GitHub/Learning-Task/Library/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/luca/Developer/GitHub/Learning-Task/Library/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/luca/Developer/GitHub/Learning-Task/Library/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/luca/Developer/GitHub/Learning-Task/Library/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Users/luca/Developer/GitHub/Learning-Task/Library/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/luca/Developer/GitHub/Learning-Task/Library/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/luca/Developer/GitHub/Learning-Task/Library/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/Library.csproj.AssemblyReference.cache
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/Library.GeneratedMSBuildEditorConfig.editorconfig
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/Library.AssemblyInfoInputs.cache
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/Library.AssemblyInfo.cs
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/Library.csproj.CoreCompileInputs.cache
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/Library.MvcApplicationPartsAssemblyInfo.cs
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/Library.MvcApplicationPartsAssemblyInfo.cache
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/staticwebassets/msbuild.Library.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/staticwebassets/msbuild.build.Library.props
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Library.props
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Library.props
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/staticwebassets.build.json
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/staticwebassets.development.json
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/scopedcss/bundle/Library.styles.css
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/Library.csproj.CopyComplete
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/Library.dll
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/refint/Library.dll
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/Library.pdb
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/Library.genruntimeconfig.cache
+/Users/luca/Developer/GitHub/Learning-Task/Library/obj/Debug/net7.0/ref/Library.dll
